@@ -43,3 +43,13 @@ print(f"x = {x}, y = {y}, z = {z}")
 #Adding variables (concatenation)
 print("Hi" + " " + "Good Morning") #Space between words
 print("Rap" + "er") #No space between words
+
+#Assigning multiple values to multiple variables
+a , b = 5 , 10
+print("Value of a is :", a)
+print("Value of b is :", b) 
+
+# Keywords are reserved words in Python that have special meanings and cannot be used as variable names.
+# Ex : if, else, for, while, def, class, import, from, as, with, try, except, finally, raise, 
+#    : assert, del, lambda, nonlocal, global, yield, return, pass, break, continue etc...
+# Returns error if = 10 print(if) (if is a keyword and cannot be used as a variable name)

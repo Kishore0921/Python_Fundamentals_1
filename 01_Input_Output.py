@@ -22,7 +22,7 @@ print("--- Addition Program ---")
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
-# Calculate and store the result
+# Calculate and store the result and displaying the result 
 total = num1 + num2
 
 print(f"The sum of {num1} and {num2} is {total}.")
@@ -31,3 +31,7 @@ print(f"The sum of {num1} and {num2} is {total}.")
 #eval() evaluates a string as Python code.
 num = eval(input("Enter a number: "))
 print("Number is ",num) 
+
+# Create a new line by using the \n escape character inside string
+# Should be used inside double or single quotes
+print("Hi \nThis is printed in next line")
